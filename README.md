@@ -1,5 +1,6 @@
 # Proyecto9-Clustering
-![OIP (3)](https://github.com/user-attachments/assets/14183db5-eff2-4f77-9d41-962bbec3bcf0)
+![empresa](https://github.com/user-attachments/assets/e8aa01b4-c7a2-461b-8f4d-945474200af8)
+
 
 Bienvenidos! 
 
@@ -66,6 +67,21 @@ Los clústeres parecen tener sentido desde una perspectiva de segmentación de m
 
 # MEDIDAS DE PREDICCION DEL CLUSTER 1
 
+* Nos quedamos con el modelo predictivo ramdom forest:
+
+![image](https://github.com/user-attachments/assets/11bce9e7-fa3a-485a-8d0b-eba48d4ce10a)
+
+El valor del R2 indica que aproximadamente el 63% de la variabilidad en el conjunto de entrenamiento y el 60% en el conjunto de prueba pueden ser explicados por el modelo. Aunque estos valores no son extremadamente altos, sugieren que el modelo tiene una capacidad moderada para explicar la variabilidad en los datos.
+
+Un RMSE de alrededor de 40 sugiere que el error promedio de las predicciones del modelo es de unas 40 unidades. La pequeña diferencia entre train y test nuevamente indica que el modelo es relativamente consistente entre los conjuntos de datos.
+
+# MEDIDAS DE PREDICCION DEL CLUSTER 2
+
+# MEDIDAS DE PREDICCION DEL CLUSTER 3
+
+
+
+
 
 
 
@@ -78,6 +94,11 @@ Los clústeres parecen tener sentido desde una perspectiva de segmentación de m
 **Proximos pasos**
 
 -Clusterizar con el metodo aglomerativo: Hemos intentado pero despues de 433 minutos de computacion no hemos conseguido sacar parametros.
+
+![Captura](https://github.com/user-attachments/assets/18d6b16a-3625-4cf8-ae45-bdb592f42169)  
+
+Caracteristicas del equipo: 8 nucleos de intel icore 7 de 8 generacion y 8 GB de RAM
+
 Además despues de mas de una hora tampoco nos has sacado los cluster.
 
 -Clusterizar mediante DBUSCAN, se ha clusterizado con este metodo pero salen unos 47 cluster por lo que tendriamos que averiguar nuevos parametros.
