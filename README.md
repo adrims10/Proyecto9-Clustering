@@ -2,7 +2,7 @@
 ![empresa](https://github.com/user-attachments/assets/e8aa01b4-c7a2-461b-8f4d-945474200af8)
 
 
-Bienvenidos! 
+Bienvenidos!
 
 # *Es un placer recibirlos*
 
