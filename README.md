@@ -94,9 +94,9 @@ No se ha conseguido un modelo solido para la prediccion del profit para el clust
 
 
 
-**Proximos pasos**
+# **Proximos pasos**
 
--Clusterizar con el metodo aglomerativo: Hemos intentado pero despues de 433 minutos de computacion no hemos conseguido sacar parametros.
+-Clusterizar con el metodo aglomerativo: Hemos intentado pero despues de 466 minutos de computacion no hemos conseguido sacar parametros.
 
 ![Captura](https://github.com/user-attachments/assets/18d6b16a-3625-4cf8-ae45-bdb592f42169)  
 
