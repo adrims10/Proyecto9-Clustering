@@ -64,6 +64,10 @@ Los clústeres parecen tener sentido desde una perspectiva de segmentación de m
 
 * Clúster 2 se centra en alta demanda y rapidez, adecuado para clientes corporativos que valoran el tiempo sobre el costo.
 
+# METODOLOGIA DE LAS PREDICCIONES O MODELOS PREDICCTIVOS.
+
+Se han entrenado varios modelo sobre cada cluster, variando hiperparametros sobre el mismo notebook(para no repetir el mismo modelo pero con diferentes hiperparametros). Posteriormete hemos usado otro modelo mas basico sin hiperparametros que ha dado algun resultado para el cluster dos, pero sin resultado favorable para el cluster 3. 
+
 
 # MEDIDAS DE PREDICCION DEL CLUSTER 1
 
@@ -77,17 +81,16 @@ Un RMSE de alrededor de 40 sugiere que el error promedio de las predicciones del
 
 # MEDIDAS DE PREDICCION DEL CLUSTER 2
 
+![image](https://github.com/user-attachments/assets/fc400777-0140-4d6c-996c-5cc386e7d687)
+
+
+El modelo tiene un rendimiento aceptable, con un R² que sugiere que está capturando bien las variables predictoras. 
+
+El RMSE podría indicar que hay margen para reducir el error absoluto. Aunque viendo los margenes en los que se mueve este cluster y viendo la incapacidad del resto de modelos usados que podemos ver en los notebooks de predecir nos quedamos con esta predicción contando que tenemos que mejorar un poco mas ese r2.
+
 # MEDIDAS DE PREDICCION DEL CLUSTER 3
 
-
-
-
-
-
-
-
-
-
+No se ha conseguido un modelo solido para la prediccion del profit para el cluster 3 por lo que no vamos a sacar conclusiones de los varios modelos que se han entrenado para este cluster. Podemos observar en los nootebooks las diferentes formar de entrenamiento.
 
 
 
@@ -97,9 +100,9 @@ Un RMSE de alrededor de 40 sugiere que el error promedio de las predicciones del
 
 ![Captura](https://github.com/user-attachments/assets/18d6b16a-3625-4cf8-ae45-bdb592f42169)  
 
-Caracteristicas del equipo: 8 nucleos de intel icore 7 de 8 generacion y 8 GB de RAM
+*Caracteristicas del equipo*: 8 nucleos de intel icore 7 de 8 generacion y 8 GB de RAM
 
-Además despues de mas de una hora tampoco nos has sacado los cluster.
+Además despues de mas de una hora tampoco nos has sacado los cluster utilizando medidas ward y 3 clusters por defecto.
 
 -Clusterizar mediante DBUSCAN, se ha clusterizado con este metodo pero salen unos 47 cluster por lo que tendriamos que averiguar nuevos parametros.
 
