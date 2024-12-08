@@ -114,4 +114,4 @@ Además despues de mas de una hora tampoco nos has sacado los cluster utilizando
 
 
 ![OIP](https://github.com/user-attachments/assets/a3261f22-9193-45df-bf33-14a396dfd988)
->>>>>>> 8f412e9a392de6b649e22e88e24aebf7052c8375
+
